@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Overpass;
+    src: url(./font/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    font-family: Overpass;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 410px;
+    height: 410px;
+    border-radius: 20px;
+    background: #1E2730;
+
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #262F38;
+    position: relative;
+    left: -155px;
+}
+
+img {
+
+    height: 15px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left: -85px;
+    margin: 0;
+    bottom: -15px;
+    font-size: 25px;
+}
+
+p {
+    color: #79808B;
+    width: 80%;
+    font-size: 15px;
+    position: relative;
+    left: -23px;
+    margin: 0;
+}
+
+
+.list-rate {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.rate {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    border: none;
+    background: #262F38;
+    color: #79808B;
+    font-weight: 600;
+}
+
+.submit {
+    width: 80%;
+    height: 45px;
+    color: white;
+    background: #FC7613;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
